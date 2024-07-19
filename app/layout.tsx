@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   keywords: ["NEXT.JS", "React", "TailwindCSS", "shadcn/ui"],
   authors: { name: "T.Mori", url: siteConfig.url },
+  metadataBase: new URL(siteConfig.url),
   openGraph: {
     type: "website",
     locale: "ja",
