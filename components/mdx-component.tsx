@@ -2,7 +2,7 @@
 
 import { useMDXComponent } from "next-contentlayer/hooks";
 import Image from "next/image";
-import Callout from "./Callout";
+import Callout from "./callout";
 
 export default function Mdx({ code }: { code: string }) {
   const Component = useMDXComponent(code);
