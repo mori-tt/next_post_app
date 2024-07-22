@@ -1,5 +1,5 @@
 import { allPosts } from "@/.contentlayer/generated";
-import Mdx from "@/components/mdx-component";
+import Mdx from "@/components/mdx-components";
 import { buttonVariants } from "@/components/ui/button";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
